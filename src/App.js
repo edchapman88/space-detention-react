@@ -4,7 +4,9 @@ import useContentLinks from './hooks/useContentLinks.hook';
 import HomeScreen from './screens/homeScreen.screen';
 import ArticlesScreen from './screens/articlesScreen.screen';
 import { LinksContext } from './contexts/links.context';
-import EcrinsIceScreen from './screens/articles/ecrinsIce.article';
+import EcrinsIceScreen from './screens/articles/2202ecrins.article';
+import BenNevisLieInScreen from './screens/articles/2203benNevis.article';
+import YosemiteFirstTimeScreen from './screens/articles/2209Yosemite.article';
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
           <Route element={<ArticlesScreen/>} path="/writing"/>
 
           <Route element={<EcrinsIceScreen/>} path="/WhereToLook"/>
+          <Route element={<BenNevisLieInScreen/>} path="/InThePursuitOfALieIn"/>
+          <Route element={<YosemiteFirstTimeScreen/>} path="/Yosemite"/>
         </Routes>
       </LinksContext.Provider>
     </Router>

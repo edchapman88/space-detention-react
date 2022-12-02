@@ -6,8 +6,9 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  // Strcit mode causes a rerender of <App/> which results in the useContentLinks being called twice
+  // <React.StrictMode> 
     <App />
-  </React.StrictMode>
+  // </React.StrictMode>
 );
 
