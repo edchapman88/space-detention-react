@@ -94,19 +94,38 @@ const YosemiteFirstTimeScreen = props => {
               is SLOW. You’re aid-climbing because the rock is too blank and steep to use your hands and
                feet – naturally it’s fiddly work trying to get any of your bits of gear to leverage the 
                tiny features in the rock enough to support your body weight. `}/>
+            
+            <ArticleImgs folder={FOLDER} imgs={['aiderView1','aiderView2']}/>
 
             <ArticleText text={`The fun doesn’t end there. If you are the second, you can’t climb up 
-            to meet the leader because you can’t climb this bit of rock either. You ascend the rope – easy 
-            enough – until you reach one of the pesky bits of gear that the leader left clipped to the 
-            rope to protect their fall. The rope is super tight because you’re hanging on it, the gear 
-            is welded into the rock because your partner bounce-tested it to oblivion for fear of their 
-            life while leading the pitch, and pitch is so overhanging down feels like up and you’ve 
-            done 30 crunches just to stay upright. Now the sun cream in your mouth is really getting 
-            to you and you’re pissed off about holding everyone up - all because your ascender is rammed 
-            right up into a quickdraw and nothing short of a miracle or a 5-to-1 pulley system is going
-             to get you unstuck. If I’m selling aid-climbing, re-read the last two paragraphs. `}/>
+            to meet the leader because you can’t climb this bit of rock either. You ascend the rope – 
+            easy enough – until you reach one of the pesky bits of gear that the leader left clipped to
+             the rope to protect their fall. The rope is super tight because you’re hanging on it, the 
+             gear is welded into the rock because your partner bounce-tested it to oblivion for fear of
+              life while leading the pitch, and the pitch is so overhanging that down feels like up, 
+              you’ve done 30 crunches just to stay upright and you’re beginning to feel a bit sick. 
+              You’re pissed off about holding everyone up - all because your ascender is rammed right 
+              up into a quickdraw and nothing short of a miracle or a 5-to-1 pulley system is going to 
+              get you unstuck. `}/>
 
-            <ArticleText text={``}/>
+            <ArticleText indent={true} text={`It’s safe to say we weren’t very efficient on our first 
+            outing. We turned round a few pitches from the top in favour of getting back down to base 
+            camp in the valley at a reasonable time. Learning quickly had to involving hating moments 
+            of it but not falling out of love with the romantic dream. During our descent, the East 
+            Buttress of El Capitan split the final rays of relenting California sunshine, 
+            pressing its immense shadow over the valley. `}/>
+
+            <ArticleImgs folder={FOLDER} imgs={['darkAbseil','noseSil']}/>
+
+            <ArticleText indent={true} text={`Time on the ground is time to recharge in the wonderful
+             squalor of abundance that we called home for three weeks. A grimy paradise with running 
+             water, toilets and bears. Hundred-foot pines shade the shuttle bus, swinging through the 
+             campgrounds to the café. Hikers and Gazers with iced coffees - a sight to see gawping at 
+             the vast walls. Some of the team had US sim cards, but in my case the Wi-Fi at the café 
+             was my only connection with the world beyond. Three weeks was a long time.`}/>
+
+            <ArticleImgs folder={FOLDER} imgs={['darkDinner','squalor']}/>
+            
 
 
 
