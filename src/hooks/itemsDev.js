@@ -1104,7 +1104,7 @@ export const items = [
         ],
         "webContentLink": "https://drive.google.com/uc?id=1gptMz6c-oLxhuJ-yU-xT_8J53DmK9qsH&export=download",
         "id": "1gptMz6c-oLxhuJ-yU-xT_8J53DmK9qsH",
-        "title": "DSCF4783.jpg"
+        "title": "darkRope.jpg"
     },
     {
         "mimeType": "image/jpeg",
@@ -1126,7 +1126,7 @@ export const items = [
         ],
         "webContentLink": "https://drive.google.com/uc?id=1a0AqBatlOgKE1aj6fSotIUlUt9vqqPX0&export=download",
         "id": "1a0AqBatlOgKE1aj6fSotIUlUt9vqqPX0",
-        "title": "DSCF4785.jpg"
+        "title": "void.jpg"
     },
     {
         "mimeType": "image/jpeg",
@@ -1148,7 +1148,7 @@ export const items = [
         ],
         "webContentLink": "https://drive.google.com/uc?id=170leIcSLAAGcfjIqNgiy5aW3s1tsbqfu&export=download",
         "id": "170leIcSLAAGcfjIqNgiy5aW3s1tsbqfu",
-        "title": "DSCF4777.jpg"
+        "title": "alexHero.jpg"
     },
     {
         "mimeType": "image/jpeg",
@@ -1159,7 +1159,7 @@ export const items = [
         ],
         "webContentLink": "https://drive.google.com/uc?id=1EadwBiWpN6SUbspdhATzwttN09rXgF5C&export=download",
         "id": "1EadwBiWpN6SUbspdhATzwttN09rXgF5C",
-        "title": "DSCF4775.jpg"
+        "title": "meLT.jpg"
     },
     {
         "mimeType": "image/jpeg",
@@ -1170,7 +1170,7 @@ export const items = [
         ],
         "webContentLink": "https://drive.google.com/uc?id=17b1zQdzZjeJWatsVwKDnjj_QUeydkLRZ&export=download",
         "id": "17b1zQdzZjeJWatsVwKDnjj_QUeydkLRZ",
-        "title": "DSCF4747.jpg"
+        "title": "LTIzzy.jpg"
     },
     {
         "mimeType": "image/jpeg",
@@ -1181,7 +1181,7 @@ export const items = [
         ],
         "webContentLink": "https://drive.google.com/uc?id=1qECFOXCE4Y9xT9wa1qKnwuzMb18vxTsX&export=download",
         "id": "1qECFOXCE4Y9xT9wa1qKnwuzMb18vxTsX",
-        "title": "DSCF4742.jpg"
+        "title": "LTsunset.jpg"
     },
     {
         "mimeType": "image/jpeg",
@@ -1214,7 +1214,7 @@ export const items = [
         ],
         "webContentLink": "https://drive.google.com/uc?id=1v-FK_R7p6QjtSZhHHY07oDwb5GxWl0o_&export=download",
         "id": "1v-FK_R7p6QjtSZhHHY07oDwb5GxWl0o_",
-        "title": "DSCF4714.jpg"
+        "title": "leaningTower.jpg"
     },
     {
         "mimeType": "image/jpeg",
@@ -1225,7 +1225,7 @@ export const items = [
         ],
         "webContentLink": "https://drive.google.com/uc?id=1Vatuu8_QaIbnQJ91x9zPAx0qp658NjOe&export=download",
         "id": "1Vatuu8_QaIbnQJ91x9zPAx0qp658NjOe",
-        "title": "DSCF4713.jpg"
+        "title": "air2Jug.jpg"
     },
     {
         "mimeType": "image/jpeg",
@@ -1247,7 +1247,7 @@ export const items = [
         ],
         "webContentLink": "https://drive.google.com/uc?id=1jhExFDB-XcHoypxJssK3oahwHtrmXfx9&export=download",
         "id": "1jhExFDB-XcHoypxJssK3oahwHtrmXfx9",
-        "title": "DSCF4710.jpg"
+        "title": "airJug.jpg"
     },
     {
         "mimeType": "image/jpeg",
