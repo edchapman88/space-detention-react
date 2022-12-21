@@ -11,8 +11,8 @@ const YosemiteFirstTimeScreen = props => {
 
     return(
         <div style={screen}>
-            <ArticleHeader text='articleName' date='29.09.22'/>
-            <ArticleImgs folder={FOLDER} imgs={['thumbnail']}/>
+            <ArticleHeader text='Land of the Giants: Part One' date='29.09.22'/>
+            <ArticleImgs folder={FOLDER} imgs={['landOfGiants']}/>
 
             <ArticleText indent={true} text={`To head to the iconic Yosemite Valley is a romantic dream. The names of the routes
              and the names of the walls are known by climbers and non-climbers alike. 
@@ -135,11 +135,12 @@ const YosemiteFirstTimeScreen = props => {
             <ArticleText text={`It was the West Face of Learning Tower. I forgot a rope, and I don’t
              know who forgot the gas. Izzy, Alex and I got a 5am drop-off way a long way from camp. 
              The car slipped into the dark pines as we stood at the side of the road realising
-              we were without a static. We couldn’t call Ollie back – and it would have ruined his plans
+              we were without the static. We couldn’t call Ollie back – and it would have ruined his plans
                if we could. I started to hitch-hike the two hours back to camp. It was light before I got 
                picked up and I'd covered half the distance on foot. I had better luck on my way out of 
                the campsite - rope in hand. I got dropped back to
-                the start of the approach with a pack of ramen, a banana, and some Twizzlers. Somehow, I
+                the start of the approach; kindly gifted with a pack of ramen, a banana, and some Twizzlers.
+                 Somehow, I
                  caught up with Alex and Izzy, still coaxing our pig through the boulder fields beneath
                   the sickeningly steep wall above. We still didn’t know we had forgotten the gas.`}/>
             
@@ -155,7 +156,7 @@ const YosemiteFirstTimeScreen = props => {
 
             <ArticleText text={`Graded V 5.7 C3 on a continuously overhung wall, the technically of 
             some of the aid-climbing combined with the unrelenting exposure wall made this climb felt 
-            like a true introduction to big wall climbing. I placed my first skyhook on pitch one – an 
+            like the true introduction to big wall climbing. I placed my first skyhook on pitch one – an 
             inverted cloak hanger for the uninitiated. Working in an offset micro cam above your head 
             while hanging on this thing feels a bit like trying to diffuse a bomb underwater (or so I 
             imagine).`}/>
@@ -165,12 +166,14 @@ const YosemiteFirstTimeScreen = props => {
             <ArticleText text={`Those unacquainted with the joys of big-wall climbing won’t know what
              a lower-out is. They are the bread and butter of making sidewards, downwards, or outwards 
              progress on a wall – any direction other than straight up. If a there is a free-hanging 
-             rope between my partner above, and I below, and the rock is so steep it is overhung like 
+             rope between my partner above, and I below, and the rock is overhung like 
              the walls of a cave; what lies ahead of me is a petrifying rope swing into the abyss. 
-             Some tens of minutes later my swing would dimmish to a hang, plum-line below my partner, 
-             tied to the end of a rope, hundreds of meters above the ground. The prospect of a swing 
+             Some tens of minutes later my swing would dimmish to a hang: plum below my partner, 
+             tied to the end of a rope, hundreds of meters up. The prospect of a swing 
              like this is nerve-wracking, and even the sight of a free hanging rope swaying in the 
-             wind in the void behind you is sometimes a bit stomach turning. After a day on an 
+             wind behind you is a bit stomach turning. But you don’t swing out
+              like that, you feed yourself out slowly with a clever rope trick – hence lower-out.
+               Nevertheless, it’s not for the faint hearted.  After a day on an 
              overhung wall like Leaning Tower, you can almost believe gravity has re-orientated 
              itself with the angle of the wall until the mind-bending moments that involve 
              free-hanging ropes - or God forbid someone drops something and it doesn’t go quite in 
@@ -179,11 +182,29 @@ const YosemiteFirstTimeScreen = props => {
             <ArticleImgs folder={FOLDER} imgs={['darkRope','void']}/>
 
             <ArticleText text={`Remarkably, darkness brings a degree of surrealism that makes 
-            climbing free-hanging ropes into the black void all just like a bit of a good joke. 
-            Climbing, however, is scary. Alex flattened his phone blaring funk to fight the fear 
-            on the final pitch of day 2.`}/>
+            climbing free-hanging ropes in the black void all just a good bit of nervous fun. 
+            Climbing however, is scary. Here is Alex, blaring funk on his phone to fight the fear 
+            on the final pitch of day 2. Izzy and I battled to stay awake on the belay, desperate  
+            for sleeping bags and cold curry.`}/>
 
             <ArticleImgs folder={FOLDER} imgs={['alexHero']}/>
+
+            <ArticleText indent={true} text={`So we were a short scramble from the top, but we 
+            weren’t cooking on gas. Boil in the bag curry works cold, cous-cous cold, porridge 
+            cold (with some thinking ahead the night before). I speak for myself, but it wasn’t 
+            that bad. Cold-shaken instant coffee – there I draw the line. All things considered, 
+            Dano Ledge was a 
+            pleasant stay. Just big enough to lean right back over the edge and take a photo 
+            of the breakfast spread, however we didn’t need a spirit level to 
+            convince ourselves of the importance of keeping everything clipped – there is no 
+            perfect ledge.`}/>
+
+            <ArticleImgs folder={FOLDER} imgs={['noGas','spiritLevel']}/>
+
+            <ArticleText text={`Topping out brought a special view. Roughly 1000ft above the 
+            valley floor, two days of climbing below us, we stood and looked up at El Capitan…`}/>
+
+            <ArticleImgs folder={FOLDER} imgs={['elCapLT']}/>
 
 
 

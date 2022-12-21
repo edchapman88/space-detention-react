@@ -906,7 +906,7 @@ export const items = [
         ],
         "webContentLink": "https://drive.google.com/uc?id=1oFvHkQ2ZHiyl7qVFPeHwpIZ0Sler5BSb&export=download",
         "id": "1oFvHkQ2ZHiyl7qVFPeHwpIZ0Sler5BSb",
-        "title": "DSCF4909.jpg"
+        "title": "landOfGiants.jpg"
     },
     {
         "mimeType": "image/jpeg",
@@ -1060,7 +1060,7 @@ export const items = [
         ],
         "webContentLink": "https://drive.google.com/uc?id=10INP89ZK5h6aoMltPtVSlEP8rjLm-Eid&export=download",
         "id": "10INP89ZK5h6aoMltPtVSlEP8rjLm-Eid",
-        "title": "DSCF4791.jpg"
+        "title": "dropAway.jpg"
     },
     {
         "mimeType": "image/jpeg",
@@ -1093,7 +1093,7 @@ export const items = [
         ],
         "webContentLink": "https://drive.google.com/uc?id=1QixjmI_KACCaODXApgS_T4t1KYKpe3he&export=download",
         "id": "1QixjmI_KACCaODXApgS_T4t1KYKpe3he",
-        "title": "DSCF4792.jpg"
+        "title": "elCapLT.jpg"
     },
     {
         "mimeType": "image/jpeg",
@@ -1115,7 +1115,7 @@ export const items = [
         ],
         "webContentLink": "https://drive.google.com/uc?id=1BzduAWgsN9WkNXKWCklyn58DQkY4aa-u&export=download",
         "id": "1BzduAWgsN9WkNXKWCklyn58DQkY4aa-u",
-        "title": "DSCF4788.jpg"
+        "title": "noGas.jpg"
     },
     {
         "mimeType": "image/jpeg",
