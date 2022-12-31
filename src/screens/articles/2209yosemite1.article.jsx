@@ -2,7 +2,7 @@ import ArticleText from "../../components/articleText.component"
 import ArticleImgs from "../../components/articleImgs.component"
 import ArticleHeader from "../../components/articleHeader.component"
 
-const YosemiteFirstTimeScreen = props => {
+const YosemiteOneScreen = props => {
     const FOLDER = '2209Yosemite'
 
     const screen = {
@@ -154,8 +154,8 @@ const YosemiteFirstTimeScreen = props => {
 
             <ArticleImgs folder={FOLDER} imgs={['LTIzzy','LTsunset']}/>
 
-            <ArticleText text={`Graded V 5.7 C3 on a continuously overhung wall, the technically of 
-            some of the aid-climbing combined with the unrelenting exposure wall made this climb felt 
+            <ArticleText text={`Graded V 5.7 C3 on a continuously overhung wall, the technicality of 
+             the aid-climbing combined with the unrelenting exposure wall made this climb felt 
             like the true introduction to big wall climbing. I placed my first skyhook on pitch one – an 
             inverted cloak hanger for the uninitiated. Working in an offset micro cam above your head 
             while hanging on this thing feels a bit like trying to diffuse a bomb underwater (or so I 
@@ -168,7 +168,7 @@ const YosemiteFirstTimeScreen = props => {
              progress on a wall – any direction other than straight up. If a there is a free-hanging 
              rope between my partner above, and I below, and the rock is overhung like 
              the walls of a cave; what lies ahead of me is a petrifying rope swing into the abyss. 
-             Some tens of minutes later my swing would dimmish to a hang: plum below my partner, 
+             Some tens of minutes later my swing would diminish to a hang: plum below my partner, 
              tied to the end of a rope, hundreds of meters up. The prospect of a swing 
              like this is nerve-wracking, and even the sight of a free hanging rope swaying in the 
              wind behind you is a bit stomach turning. But you don’t swing out
@@ -212,4 +212,4 @@ const YosemiteFirstTimeScreen = props => {
     )
 }
 
-export default YosemiteFirstTimeScreen
+export default YosemiteOneScreen

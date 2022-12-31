@@ -10,7 +10,7 @@ const useContentLinks = () => {
     async function getAndSetLinks( stateSetter ) {
 
         // const items = await getAllContentLinks()
-        console.log(items)
+        // console.log(items)
     
         stateSetter(linksFormatter(items))
     }

@@ -6,7 +6,7 @@ import ArticlesScreen from './screens/articlesScreen.screen';
 import { LinksContext } from './contexts/links.context';
 import EcrinsIceScreen from './screens/articles/2202ecrins.article';
 import BenNevisLieInScreen from './screens/articles/2203benNevis.article';
-import YosemiteFirstTimeScreen from './screens/articles/2209Yosemite.article';
+import YosemiteOneScreen from './screens/articles/2209yosemite1.article';
 
 function App() {
 
@@ -16,12 +16,12 @@ function App() {
     <Router>
       <LinksContext.Provider value={{ contentLinks, setContentLinks }}>
         <Routes>
-          <Route element={<HomeScreen/>} path="/"/>
-          <Route element={<ArticlesScreen/>} path="/writing"/>
+          <Route element={<HomeScreen/>} path="/Home"/>
+          <Route element={<ArticlesScreen/>} path="/Articles"/>
 
           <Route element={<EcrinsIceScreen/>} path="/WhereToLook"/>
           <Route element={<BenNevisLieInScreen/>} path="/InThePursuitOfALieIn"/>
-          <Route element={<YosemiteFirstTimeScreen/>} path="/Yosemite"/>
+          <Route element={<YosemiteOneScreen/>} path="/Yosemite"/>
         </Routes>
       </LinksContext.Provider>
     </Router>

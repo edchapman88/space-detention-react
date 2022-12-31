@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from "react"
 import CoverImage from "../components/coverImage.component"
 import { LinksContext } from "../contexts/links.context"
 import { getImgsByPage, getImgByPageAndInclude } from "../functions/imageSearching.functions"
+import NavBar from "../components/navBar.component"
 
 const HomeScreen = () => {
     const { contentLinks } = useContext(LinksContext)
@@ -20,6 +21,7 @@ const HomeScreen = () => {
 
     return (
         <>
+            <NavBar/>
             {coverUrl && <CoverImage imgUrl={coverUrl} text={[
             `Welcome to a place of space.`,
             `Look, but don't become,`,

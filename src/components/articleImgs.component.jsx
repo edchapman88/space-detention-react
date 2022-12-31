@@ -41,7 +41,6 @@ const ArticleImgs = props => {
                 </div>
             }
             </>) 
-        break;
         case 2:
         default:
             return (
