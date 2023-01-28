@@ -179,7 +179,7 @@ const YosemiteOneScreen = props => {
              free-hanging ropes - or God forbid someone drops something and it doesn’t go quite in 
              the direction you expect.`}/>
 
-            <ArticleImgs folder={FOLDER} imgs={['darkRope','void']}/>
+            <ArticleImgs folder={FOLDER} imgs={['darkRope','feetInTheDark']}/>
 
             <ArticleText text={`Remarkably, darkness brings a degree of surrealism that makes 
             climbing free-hanging ropes in the black void all just a good bit of nervous fun. 

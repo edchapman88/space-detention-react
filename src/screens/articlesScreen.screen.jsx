@@ -20,7 +20,11 @@ const ArticlesScreen = () => {
         {ref:'2209yosemite1',
         blurb:'',
         date:'',
-        title:''}
+        title:'Land of the Giants: Part One'},
+        {ref:'2209yosemite2',
+        blurb:'',
+        date:'18.03.22',
+        title:'Land of the Giants: Part Two'}
         ];
         
     const articleContainer = {

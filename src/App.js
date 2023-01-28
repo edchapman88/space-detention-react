@@ -7,6 +7,7 @@ import { LinksContext } from './contexts/links.context';
 import EcrinsIceScreen from './screens/articles/2202ecrins.article';
 import BenNevisLieInScreen from './screens/articles/2203benNevis.article';
 import YosemiteOneScreen from './screens/articles/2209yosemite1.article';
+import YosemiteTwoScreen from './screens/articles/2209yosemite2.article';
 
 function App() {
 
@@ -21,7 +22,8 @@ function App() {
 
           <Route element={<EcrinsIceScreen/>} path="/WhereToLook"/>
           <Route element={<BenNevisLieInScreen/>} path="/InThePursuitOfALieIn"/>
-          <Route element={<YosemiteOneScreen/>} path="/Yosemite"/>
+          <Route element={<YosemiteOneScreen/>} path="/LandOfTheGiantsPartOne"/>
+          <Route element={<YosemiteTwoScreen/>} path="/LandOfTheGiantsPartTwo"/>
         </Routes>
       </LinksContext.Provider>
     </Router>
