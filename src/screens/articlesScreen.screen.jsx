@@ -19,11 +19,11 @@ const ArticlesScreen = () => {
         title:'In the pursuit of a lie in'},
         {ref:'2209yosemite1',
         blurb:'',
-        date:'',
+        date:'29.09.22',
         title:'Land of the Giants: Part One'},
         {ref:'2209yosemite2',
         blurb:'',
-        date:'18.03.22',
+        date:'08.10.22',
         title:'Land of the Giants: Part Two'}
         ];
         
@@ -43,7 +43,7 @@ const ArticlesScreen = () => {
                                                 'articleThumbnails',
                                                 item.ref,
                                                 contentLinks
-                                            ).link}
+                                            )?.link}
                                 blurb={blurb} date={date} title={title}/>
                 })}
             </div>

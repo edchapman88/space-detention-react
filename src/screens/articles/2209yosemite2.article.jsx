@@ -106,13 +106,13 @@ const YosemiteTwoScreen = props => {
             <ArticleText indent={true} text={`At 2am the next morning, slouched on an poorly hung 
             inflatable portaledge, I tipped a pouch of cold Chana Masala into my mouth in 
             between frankfurters. The other three were asleep. Alex - on a small sloping ledge 
-            to my left, no more than 4.5 ft square. Stu and Jo atop a 2-man portaledge hanging 
+            to my left, 4.5 ft square. Stu and Jo on a 2-man portaledge hanging 
             just above Alex, leaving no room to sit up. The others had eaten while I was making 
             my second trip down the fixed lines, this time in the dark, to attach the other bag 
             to the rope for 
             hauling. The plan of hauling both bags in one go had failed miserably. We had used 
             a 3-to-1 space hauling setup for the first 60m which turned out to be too slow 
-            and awkward. There was 105 Kg of water in the bags before even considering the 
+            and awkward. There was 105 kg of water in the bags before even considering the 
             weight of portaledges and food. `}/>
 
             <ArticleImgs folder={FOLDER} imgs={['void']}/>
@@ -136,6 +136,8 @@ const YosemiteTwoScreen = props => {
             Camp for the second night would be Dolt Tower, and the escape options from 
             there are pretty friendly with a line of abseil bolts straight to the ground.`}/>
 
+            <ArticleImgs folder={FOLDER} imgs={['alexLook','knots']}/>
+
             <ArticleText text={`Five pitches were between us and Dolt Tower, including 
             the renown Stovelegs crack system. We split into our two climbing teams. I 
             led and hauled the five pitches to Dolt to give Alex the best chance to 
@@ -144,6 +146,111 @@ const YosemiteTwoScreen = props => {
             or three flat-ish spots about the size of a person separated by rocky steps. `}/>
 
             <ArticleImgs folder={FOLDER} imgs={['doltLedge']}/>
+
+            <ArticleText text={`The morning brought frank discussion and difficult 
+            decisions. We talked through several options. Alex decided to go down. He 
+            felt that he had not bounced back from our ascent of the West Face of Leaning 
+            Tower. There had only been one rest day at base camp before setting off up 
+            the Nose which just wasn’t enough time to fully recover and store up energy 
+            reserves for a week on El Cap. Others expressed doubts and 
+            indecision too, and a final decision about what the team would look like 
+            moving onwards wasn’t made until after breakfast. `}/>
+
+            <ArticleImgs folder={FOLDER} imgs={['decisionMaking','portaledgeStu']}/>
+
+            <ArticleText text={`I was determined to continue and did believe what we 
+            had been told: it gets easier the higher you go – less time wasted in 
+            queues, you get the hang of moving faster, the bags get at least 15-20 
+            kg lighter every day. That being said, I thought for the first time that 
+            it might become gruelling to the extent that I might rather not be doing 
+            it. I have never reached that point on a climb before, and thank fully 
+            it didn’t happen on the Nose. `}/>
+
+            <ArticleText text={`A couple of older guys, one of whom was turning 60, 
+            appeared on the ledge and were looking to head down 
+            after their morning run up the first 9 pitches. They’d each done a 
+            handful of NIADs with other partners over the years and were seeing 
+            how fit they were feelings before potentially doing one together the 
+            following week. Alex would have some company for the 16 abseils. Stu, Jo 
+            and I started pitch 10 of 30 knowing that we had all just committed to 
+            a battle for the top. `}/>
+
+            <ArticleText text={`Our next camp was only short three pitches away, and 
+            yet it still felt really good to get there with hours of daylight to 
+            spare. We needed to come together a bit more as a team and making good 
+            progress put us all in a better mood. El Cap Tower
+            was the only camp on the wall that left me wishing we could have stayed another 
+            night. As though cut into the face with flat chisel and hammer.`}/>
+
+            <ArticleImgs folder={FOLDER} imgs={['waterBefore','stuElCapT']}/>
+
+            <ArticleText indent={true} text={`There wasn’t really time to bask in the sun and 
+            our sense of position. Stu was tired having led the last block from Dolt and Jo 
+            didn’t want to climb the next pitch: Texas Flake. I don’t know why the pitch 
+            doesn’t get more publicity – it seems to me a hidden crux of the whole route. 
+            It was the only part that felt truly irresponsible, and that thought came to me 
+            halfway up it. Feet on one wall, back pressed up against the wall opposite – the 
+            two walls making up the sides of a ridiculous 3ft wide alley between two 50ft 
+            tall buildings. There’s one bolt halfway up on the far right, but the topo said 
+            it was easier on the left, so left and bolt-less it was. I was watching the rope 
+            dangling between my legs, not clipped to anything between me and a gentle curl 
+            as it lay on the rocky bottom of this crazy aerial alley. To be honest, it’s 
+            unpleasant to write about even now. Stood on top of the 
+            huge flake was the only time I felt the sense 
+            of extreme exposure that comes with a kilometre high rock face. The rest of the 
+            time I was totally acclimatised. Waking up to the drop, hanging in hundreds of 
+            meters of darkness, none of these times was I moved from the surreal to the 
+            frightened – but climbing 50ft essentially unattached really reset my system. `}/>
+
+            <ArticleImgs folder={FOLDER} imgs={['exposedLadder']}/>
+
+            <ArticleText text={`Darkness fell as I started up the Boot Flake. Jo and I sang 
+            as she belayed me. Sweet Caroline, Escape (the Pina Colada song), I'm Gonna Be 
+            (500 Miles). I felt elated to have cheated broken arms and legs, and by the end 
+            of the pitch we would have reached the King Swing, which was a real milestone. 
+            Jo was excited that we were the lonely headtorches she’d gazed up at from El Cap 
+            Meadow so many times before.`}/>
+
+            <ArticleImgs folder={FOLDER} imgs={['ECTStu']}/>
+
+            <ArticleText indexnt={true} text={`The morning on day 4 was not representative 
+            of big wall breakfasts. It’s harder to take photos at the terrible bivvies, so 
+            it doesn’t happen. Jo’s friend had recently started a dehydrated meals brand, 
+            so we tried to do some modelling for them. It’s possible the target audience 
+            might find it an attractive advert – though that says as much about them as 
+            it does about us after 3 days on the wall.`}/>
+
+            <ArticleImgs folder={FOLDER} imgs={['modelingSolo', 'modelingGroup']}/>
+
+            <ArticleText text={`The meals were delicious, but I do think they ought to be 
+            tested by averagely hungry folk on the ground.`}/>
+
+            <ArticleImgs folder={FOLDER} imgs={['haul1','haul2','stuFish']}/>
+
+            <ArticleText indent={true} text={`The rest of the Nose felt more like a process, 
+            we did get into a groove and the bags did get much lighter. I remember being 
+            caught by surprise on the sixth day, climbing an awkward C2 pitch with such 
+            momentum. Understanding perhaps, how it might feel to climb the route in a day. 
+            It’s possible that really needing to pee had something to do with my 
+            blistering pace – then again, I don’t imagine there are many loo breaks on a 
+            NIAD. `}/>
+
+            <ArticleImgs folder={FOLDER} imgs={['stuToe']}/>
+
+            <ArticleText text={`I personal highlight was dusting off my climbing shoes 
+            and climbing Pancake Flake on-sight. Dealing with horrendous flash-pump 
+            and not much in the way of energy reserves to recover made it quite a fight. 
+            A layback crack at the centrefold of a huge blank book, the pancake thin 
+            page rings when the gear on your harness chimes it. `}/>
+
+            <ArticleImgs folder={FOLDER} imgs={['ascendingJo']}/>
+
+            <ArticleText indent={true} text={`Stu might have more to say about the 
+            aid-climbing challenges in the upper sections of the Nose. I belayed him 
+            through the Great Roof and Changing Corners, both in the dark, on two 
+            consecutive nights. Mainlining Shot Bloks and occasionally shivering in the 
+            cooling night-time breeze kept me awake while Stu had a significantly worse 
+            time, swearing on the other end of the rope.`}/>
 
         </div>
     )
