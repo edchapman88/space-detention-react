@@ -22,12 +22,12 @@ const YosemiteOneScreen = props => {
             <ArticleText containerStyle={{paddingLeft:'15%',paddingRight:'15%', paddingTop:'0'}}
              text={`“Did you sleep on the wall in one of those hanging tents?”	Yes`}/>
             <ArticleText containerStyle={{paddingLeft:'15%',paddingRight:'15%', paddingTop:'0'}}
-             text={`“How do you go to the toilet when you’re up there?” You poo in a bag, put that
+             text={`“How do you go to the toilet when you’re up there?” You do your business in a bag, put that
               bag in several other bags and carry it to the top with you.`}/>
             <ArticleText containerStyle={{paddingLeft:'15%',paddingRight:'15%', paddingTop:'0'}}
-             text={`“Did you climb The Nose on El Cap?” Yes`}/>
+             text={`“Did you climb El Cap?” Yes`}/>
             <ArticleText containerStyle={{paddingLeft:'15%',paddingRight:'15%', paddingTop:'0'}}
-             text={`“Didn’t someone climb The Nose in under two hours?” Yes. It took us 6 days.`}/>
+             text={`“Didn’t someone climb that in under two hours?” Yes. It took us 6 days.`}/>
             <ArticleText containerStyle={{paddingLeft:'15%',paddingRight:'15%', paddingTop:'0'}}
              text={`“Did you free-solo it?” No, what Alex Honnold did on Freerider is more 
              inconceivable to me now than it ever was.`}/>
@@ -44,13 +44,13 @@ const YosemiteOneScreen = props => {
              it anyway. `} />
 
             <ArticleText text={`2pm came and went and we were still hauling the bags up to our 
-            bivy ledge at around 10pm, which did feel like 6am as it transpired. In the morning 
+            bivy ledge at 10pm, which did feel like 6am as it transpired. In the morning 
             we looked really tired. And yet the wonders of coffee transformed us.`}/>
 
             <ArticleImgs folder={FOLDER} imgs={['tiredAlex','teamWashington']}/>
 
             <ArticleText text={`So where were we and what were we doing? Washington Column is a
-             550m tall column of rock beneath North Dome. The route we were on is a classic 
+             550m tall tower of rock standing beneath North Dome. The route we were on is a classic 
              introduction to big wall climbing in the valley – 11 or so pitches of C1 graded 
              cracks and bolt ladders winding up the exposed South Face. Alex and Stu posed for
               a photo in front of it.`} />
@@ -74,7 +74,7 @@ const YosemiteOneScreen = props => {
               had set ourselves up for failure on day 2 by not fixing ropes up the two pitches
                above camp the night before. This game of getting a head start on the next 
                day’s climbing is a valuable trick – but climbing into the night above and 
-               away from a sleeping bag rolled out on the ledge below takes some motivation.
+               away from sleeping bags rolled out on the ledge below takes some motivation.
                 Day 2 was tough. `}/>
 
             <ArticleImgs folder={FOLDER} imgs={['kor']}/>
@@ -83,11 +83,11 @@ const YosemiteOneScreen = props => {
              for bigger and steeper faces, it becomes unlikely that there is a continuous line from the
              bottom to the top without encountering a few really blank, really hard sections. If you’re 
              not a world-class climber these sections are impassable. Unless there’s another way? That 
-             other way is ‘aid-climbing’ and it's a real incentive to get strong enough to avoid it.`} />
+             other way is ‘aid-climbing’, and it is itself a real incentive to get strong enough to avoid it.`} />
 
-            <ArticleText text={`We’ve done lots of free-climbing, which involves fiddling bits of 
+            <ArticleText text={`Aid-climbing was new to us. We’ve done lots of free-climbing, which involves fiddling bits of 
             equipment into cracks and other features of the rock every few meters as you climb. The rope
-             is clipped into these bits of gear and it catches you if you fall. When aid-climbing you 
+             is clipped into these bits of gear and it catches you if you fall. When aid-climbing, you 
              fix gear to the rock as usual, then attach a little rope ladder to that fixed piece. Now 
              you can climb a few steps up the rope ladder. Precariously balanced in the top steps and
               reaching as high as you can, you place another piece of gear into the rock above. Progress 
@@ -130,34 +130,35 @@ const YosemiteOneScreen = props => {
             <ArticleText indent={true} text={`We blasted up some shorter climbs out of base camp and
              came up with a game plan in the café. There were bigger objectives on our minds. Gus 
              the park ranger recommended the West Face of Leaning Tower. His sentences started and 
-             ended with dude and we felt well informed. `}/>
+             ended with 'dude' and we felt well informed. `}/>
 
-            <ArticleText text={`It was the West Face of Learning Tower. I forgot a rope, and I don’t
-             know who forgot the gas. Izzy, Alex and I got a 5am drop-off way a long way from camp. 
-             The car slipped into the dark pines as we stood at the side of the road realising
-              we were without the static. We couldn’t call Ollie back – and it would have ruined his plans
+            <ArticleText text={`It became the West Face of Learning Tower. I forgot a rope, and I don’t
+             know who forgot the gas. Izzy, Alex and I got a 5am drop-off a long way from camp. We stood 
+             at the side of the road as the car slipped into the dark pines, too slowly realising that 
+             we were without the static. We couldn’t call Ollie back – and it would have ruined his plans
                if we could. I started to hitch-hike the two hours back to camp. It was light before I got 
                picked up and I'd covered half the distance on foot. I had better luck on my way out of 
-               the campsite - rope in hand. I got dropped back to
+               the campsite - rope over my shoulders. I got dropped back to
                 the start of the approach; kindly gifted with a pack of ramen, a banana, and some Twizzlers.
                  Somehow, I
                  caught up with Alex and Izzy, still coaxing our pig through the boulder fields beneath
-                  the sickeningly steep wall above. We still didn’t know we had forgotten the gas.`}/>
+                  the sickeningly steep wall above. We were still unaware that we were without gas.`}/>
             
             <ArticleImgs folder={FOLDER} imgs={['leaningTower','meLT']}/>
 
             <ArticleText text={`Warren Harding climbed the route in 1961 over a 10-month period. 
             On his first attempt he got hit by rockfall and had to take 6 months off. 
-            It took us two days to climb, and a third to descend. We read sometime after our ascent 
+            It took us two days to climb, and a third to descend. We read sometime afterwards 
             that the recommendation is to spend a day shuttling gear to the start of pitch one. So 
-            in retrospect we were doing ok to get from the road to the Awahnee Ledge before sunset.`}/>
+            in retrospect, we were doing ok to get from the road to the Awahnee Ledge before sunset.`}/>
 
             <ArticleImgs folder={FOLDER} imgs={['LTIzzy','LTsunset']}/>
 
             <ArticleText text={`Graded V 5.7 C3 on a continuously overhung wall, the technicality of 
              the aid-climbing combined with the unrelenting exposure wall made this climb felt 
-            like the true introduction to big wall climbing. I placed my first skyhook on pitch one – an 
-            inverted cloak hanger for the uninitiated. Working in an offset micro cam above your head 
+            like the true introduction to big wall climbing. I placed my first skyhook on pitch one – a 
+            piece resembling an 
+            inverted cloak hanger. Working in an offset micro cam above your head 
             while hanging on this thing feels a bit like trying to diffuse a bomb underwater (or so I 
             imagine).`}/>
 
@@ -172,7 +173,7 @@ const YosemiteOneScreen = props => {
              tied to the end of a rope, hundreds of meters up. The prospect of a swing 
              like this is nerve-wracking, and even the sight of a free hanging rope swaying in the 
              wind behind you is a bit stomach turning. But you don’t swing out
-              like that, you feed yourself out slowly with a clever rope trick – hence lower-out.
+              like that, you feed yourself out slowly with a clever rope trick – hence 'lower-out'.
                Nevertheless, it’s not for the faint hearted.  After a day on an 
              overhung wall like Leaning Tower, you can almost believe gravity has re-orientated 
              itself with the angle of the wall until the mind-bending moments that involve 

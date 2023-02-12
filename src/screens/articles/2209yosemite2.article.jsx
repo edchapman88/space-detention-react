@@ -29,7 +29,7 @@ const YosemiteTwoScreen = props => {
             <ArticleText text={`Only around 10 people have free-climbed the Nose at the time 
             of writing this. Yet, the route is the busiest climb in the valley. A few very 
             difficult pitches make a free-ascent out of the realms of consideration for most 
-            climbers. So of the hundreds of teams on the Nose every season (only around half 
+            climbers. So, of the hundreds of teams on the Nose every season (only around half 
             of whom make it to the top), nearly all of them are aid-climbing quite a few of the 
             pitches. And the people 
             who don’t get to the top? As a result of its popularity, there are well-equipped 
@@ -40,7 +40,7 @@ const YosemiteTwoScreen = props => {
             technically difficult, forgiving to the underprepared, and the queues of 
             teams strung along the route eliminate the need for anything that resembles route 
             finding. So why climb it? At the end of the day, it will always be the Nose, and 
-            you'll always want to have climbed it. And truthfully the scale of the route did still 
+            you'll always want to. And truthfully, the scale of the route did still 
             excite the adventurer within. 2 or 3 days can always be struggled through in 
             pretty sub-optimal conditions, but 5 days - not so much. Personally, I'd be more excited 
             by a 5 day self-supported hike than a walk in the countryside, for no other reason than 
@@ -62,7 +62,7 @@ const YosemiteTwoScreen = props => {
             aid-climbing that I did in the Yosemite Valley. A couple of RP’s equalised with 
             a sling, and a #0.2 microcam exploding with a fractured lobe - all above a ground fall 
             potential. For the inquisitive: it definitely wasn’t an official first-ascent once I had 
-            put a micro-trax on the abseil line as a backup (having remembered it was a training 
+            put a micro-trax on the abseil line as a backup (having remembered it was just a training 
             trip). `}/>
 
             <ArticleText indent={true} text={`We were four, stood at the toe of the Nose in the 
@@ -88,7 +88,7 @@ const YosemiteTwoScreen = props => {
 
             <ArticleText text={`Myself, Jo and Stu set off for Sickle. The peg-scarred 
             cracks were really worn out and it made for some of the most insecure climbing on 
-            the route. Three teams of locals passed us, climbing very fast and light to 
+            the route. Two teams of locals passed us, climbing very fast and light to 
             practice just this first section of the Nose in preparation for a NIAD (Nose In A 
                 Day) later in the season. They all said it’s plain sailing once you get through 
                 Stovelegs. `}/>
@@ -151,7 +151,7 @@ const YosemiteTwoScreen = props => {
             decisions. We talked through several options. Alex decided to go down. He 
             felt that he had not bounced back from our ascent of the West Face of Leaning 
             Tower. There had only been one rest day at base camp before setting off up 
-            the Nose which just wasn’t enough time to fully recover and store up energy 
+            the Nose which just wasn’t enough time to fully recover and build up energy 
             reserves for a week on El Cap. Others expressed doubts and 
             indecision too, and a final decision about what the team would look like 
             moving onwards wasn’t made until after breakfast. `}/>
@@ -187,7 +187,7 @@ const YosemiteTwoScreen = props => {
             <ArticleText indent={true} text={`There wasn’t really time to bask in the sun and 
             our sense of position. Stu was tired having led the last block from Dolt and Jo 
             didn’t want to climb the next pitch: Texas Flake. I don’t know why the pitch 
-            doesn’t get more publicity – it seems to me a hidden crux of the whole route. 
+            doesn’t get more publicity – it seems to me to be a hidden crux of the whole route. 
             It was the only part that felt truly irresponsible, and that thought came to me 
             halfway up it. Feet on one wall, back pressed up against the wall opposite – the 
             two walls making up the sides of a ridiculous 3ft wide alley between two 50ft 
@@ -229,16 +229,16 @@ const YosemiteTwoScreen = props => {
 
             <ArticleText indent={true} text={`The rest of the Nose felt more like a process, 
             we did get into a groove and the bags did get much lighter. I remember being 
-            caught by surprise on the sixth day, climbing an awkward C2 pitch with such 
-            momentum. Understanding perhaps, how it might feel to climb the route in a day. 
+            surprised on the sixth day, climbing an awkward C2 pitch with so much 
+            momentum. Perhaps for a moment understanding how it might feel to climb the route in a day. 
             It’s possible that really needing to pee had something to do with my 
             blistering pace – then again, I don’t imagine there are many loo breaks on a 
             NIAD. `}/>
 
             <ArticleImgs folder={FOLDER} imgs={['stuToe']}/>
 
-            <ArticleText text={`I personal highlight was dusting off my climbing shoes 
-            and climbing Pancake Flake on-sight. Dealing with horrendous flash-pump 
+            <ArticleText text={`Dusting off my climbing shoes and free-climbing Pancake 
+            Flake on-sight stays with me as a vivid memory. Dealing with horrendous flash-pump 
             and not much in the way of energy reserves to recover made it quite a fight. 
             A layback crack at the centrefold of a huge blank book, the pancake thin 
             page rings when the gear on your harness chimes it. `}/>
