@@ -31,7 +31,9 @@ const YosemiteTwoScreen = props => {
             difficult pitches make a free-ascent out of the realms of consideration for most 
             climbers. So, of the hundreds of teams on the Nose every season (only around half 
             of whom make it to the top), nearly all of them are aid-climbing quite a few of the 
-            pitches. And the people 
+            pitches.`}/>
+
+            <ArticleText text={`And the people 
             who don’t get to the top? As a result of its popularity, there are well-equipped 
             escape routes from various points in the first half of the climb.`}/>
 
@@ -46,10 +48,10 @@ const YosemiteTwoScreen = props => {
             by a 5 day self-supported hike than a walk in the countryside, for no other reason than 
             how long it would take.`}/>
 
-            <ArticleText text={`It's not often the case that a big part of my motivation to 
-            climb something is to get the tick. But if that is the case, then you better be damn 
-            sure you're going to make it. Three or so weeks in the valley isn't as much as it sounds when a 
-            single climb can take 3-5 days, so preparing a piss-poor 
+            <ArticleText text={`It's not often the case that I'm motivated to climb something to get a 
+            tick in a box. But if that is the case, then you better be damn 
+            sure you're going to make it to the top. Three or so weeks in the valley isn't as long as it sounds when a 
+            single climb can take 5 days, so preparing a piss-poor 
             performance prior to our flight seemed like the right idea. The nearest 
             small-wall to London was a chossy sea cliff near Bournemouth which prepared 
             us only for the baking Californian sunshine and the fact that aid-climbing is 
@@ -63,7 +65,7 @@ const YosemiteTwoScreen = props => {
             a sling, and a #0.2 microcam exploding with a fractured lobe - all above a ground fall 
             potential. For the inquisitive: it definitely wasn’t an official first-ascent once I had 
             put a micro-trax on the abseil line as a backup (having remembered it was just a training 
-            trip). `}/>
+            trip, and that breaking a leg would look really silly). `}/>
 
             <ArticleText indent={true} text={`We were four, stood at the toe of the Nose in the 
             purple-blue dawn of the first day. It didn’t look altogether that far to the top, 
@@ -99,7 +101,7 @@ const YosemiteTwoScreen = props => {
             us and the top were no coincidence. She is also a brilliant photographer and I’ve 
             used her photos alongside mine throughout this article. A camera in each climbing 
             pair was sensible – so once at Sickle, I would abseil to the ground to meet Alex 
-            and the bags while Stu and Jo fixed the first pitch above Sickle. We would need 
+            and the bags, while Stu and Jo fixed the first pitch above Sickle. We would need 
             some separation between our 2 sub-teams for the rest of the route. Unfortunately, 
             that’s not quite how it panned out.`}/>
 
@@ -154,7 +156,7 @@ const YosemiteTwoScreen = props => {
             the Nose which just wasn’t enough time to fully recover and build up energy 
             reserves for a week on El Cap. Others expressed doubts and 
             indecision too, and a final decision about what the team would look like 
-            moving onwards wasn’t made until after breakfast. `}/>
+            moving forewards wasn’t made until after breakfast. `}/>
 
             <ArticleImgs folder={FOLDER} imgs={['decisionMaking','portaledgeStu']}/>
 
@@ -172,15 +174,15 @@ const YosemiteTwoScreen = props => {
             handful of NIADs with other partners over the years and were seeing 
             how fit they were feelings before potentially doing one together the 
             following week. Alex would have some company for the 16 abseils. Stu, Jo 
-            and I started pitch 10 of 30 knowing that we had all just committed to 
+            and I started pitch 10 of 30 knowing that we had just committed to 
             a battle for the top. `}/>
 
-            <ArticleText text={`Our next camp was only short three pitches away, and 
+            <ArticleText text={`Our next camp was only three pitches away, and 
             yet it still felt really good to get there with hours of daylight to 
             spare. We needed to come together a bit more as a team and making good 
             progress put us all in a better mood. El Cap Tower
             was the only camp on the wall that left me wishing we could have stayed another 
-            night. As though cut into the face with flat chisel and hammer.`}/>
+            night. As though cut into the face with flat-chisel and hammer.`}/>
 
             <ArticleImgs folder={FOLDER} imgs={['waterBefore','stuElCapT']}/>
 
@@ -227,10 +229,10 @@ const YosemiteTwoScreen = props => {
 
             <ArticleImgs folder={FOLDER} imgs={['haul1','haul2','stuFish']}/>
 
-            <ArticleText indent={true} text={`The rest of the Nose felt more like a process, 
-            we did get into a groove and the bags did get much lighter. I remember being 
+            <ArticleText indent={true} text={`The rest of the Nose felt more like a process. 
+            We did get into a groove and the bags did get much lighter. I remember being 
             surprised on the sixth day, climbing an awkward C2 pitch with so much 
-            momentum. Perhaps for a moment understanding how it might feel to climb the route in a day. 
+            momentum. For a moment understanding how it might feel to climb the route in a day. 
             It’s possible that really needing to pee had something to do with my 
             blistering pace – then again, I don’t imagine there are many loo breaks on a 
             NIAD. `}/>
@@ -239,18 +241,55 @@ const YosemiteTwoScreen = props => {
 
             <ArticleText text={`Dusting off my climbing shoes and free-climbing Pancake 
             Flake on-sight stays with me as a vivid memory. Dealing with horrendous flash-pump 
-            and not much in the way of energy reserves to recover made it quite a fight. 
-            A layback crack at the centrefold of a huge blank book, the pancake thin 
+            and not much in the way of energy reserves made it quite a fight. 
+            A layback crack at the centrefold of a huge blank book, the pancake-thin 
             page rings when the gear on your harness chimes it. `}/>
 
             <ArticleImgs folder={FOLDER} imgs={['ascendingJo']}/>
 
             <ArticleText indent={true} text={`Stu might have more to say about the 
             aid-climbing challenges in the upper sections of the Nose. I belayed him 
-            through the Great Roof and Changing Corners, both in the dark, on two 
+            through the Great Roof and Changing Corners - both iconic and epic pitches, 
+            both in the dark, on two 
             consecutive nights. Mainlining Shot Bloks and occasionally shivering in the 
             cooling night-time breeze kept me awake while Stu had a significantly worse 
             time, swearing on the other end of the rope.`}/>
+
+            <ArticleText indent={true} text={`We stood on the top and I didn’t feel a 
+            huge sense of achievement. I am more proud of it now, some time later. It 
+            took time to figure out why I didn’t feel on top of the world - stood on top 
+            of the rock; next to the wind-twisted pines and a couple of 
+            not-for-the-first-time NIAD climbers who set off that morning. `}/>
+
+            <ArticleImgs folder={FOLDER} imgs={['grouppose']}/>
+
+            <ArticleText text={`If we were slower, we would have made it. If we packed 
+            less stuff, or more stuff; we would have made it. The hardest pitches 
+            weren’t that hard, it wasn’t that cold, or that hot. We carried a 
+            full, unopened jar of peanut butter to the top; because we had space for 
+            it and didn’t need it. These thoughts circulated as we trudged back down 
+            to the valley floor carrying our ridiculously big bags, and our unopened 
+            jar of peanut butter. If the romantic dream of the biggest walls in 
+            Yosemite was indeed more than just a dream, climbing the Nose in 
+            this style wasn’t it. If you can’t climb it fast enough, take more food. 
+            If it doesn’t all fit in your rucksack, take a bigger bag. If you can’t 
+            carry your heavy kit, haul your bags. If the bags are just too heavy, 
+            then build a bigger pulley. `}/>
+
+            <ArticleText text={`For me, something in the adventure is squashed by 
+            this brutish approach.`}/>
+
+            <ArticleImgs folder={FOLDER} imgs={['packup','walkoff']}/>
+
+            <ArticleText text={`But Jo did get to spend her 30th birthday climbing 
+            the final pitch to the summit of El Cap, and we did have a really fun 
+            time (for some of it).`}/>
+
+            <ArticleImgs folder={FOLDER} imgs={['joebirthday']}/>
+
+            <ArticleImgs folder={FOLDER} imgs={['stumacro','edmacro']}/>
+
+            <ArticleImgs folder={FOLDER} imgs={['teeth']}/>
 
         </div>
     )

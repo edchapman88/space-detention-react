@@ -41,7 +41,7 @@ const YosemiteOneScreen = props => {
              I figured since 7am would feel like 3pm we’d be desperate to get going by 8am and 
              should aim to be on the first pitch of Washington Column by 2pm. I thought we 
              should ignore the fact that 2pm would feel like 10pm, and we ought to get used to 
-             it anyway. `} />
+             it anyway.`} />
 
             <ArticleText text={`2pm came and went and we were still hauling the bags up to our 
             bivy ledge at 10pm, which did feel like 6am as it transpired. In the morning 
@@ -70,7 +70,8 @@ const YosemiteOneScreen = props => {
             <ArticleImgs folder={FOLDER} imgs={['misty']}/>
             <ArticleText indent={true} text={`If you can read the topo, we’d made it to the top of the 3rd ladder
              without encountering a snake, which put us at “Dinner Ledge” for our first night 
-             sleeping on the wall. The view in the morning was breath-taking. We
+             sleeping on the wall. The view in the morning was breath-taking.`}/>
+            <ArticleText indent={true} text={`We
               had set ourselves up for failure on day 2 by not fixing ropes up the two pitches
                above camp the night before. This game of getting a head start on the next 
                day’s climbing is a valuable trick – but climbing into the night above and 
