@@ -1,6 +1,7 @@
 import ArticleText from "../../components/articleText.component"
 import ArticleImgs from "../../components/articleImgs.component"
 import ArticleHeader from "../../components/articleHeader.component"
+import NavBar from "../../components/navBar.component"
 
 const YosemiteTwoScreen = props => {
     const FOLDER = '2209Yosemite'
@@ -9,7 +10,8 @@ const YosemiteTwoScreen = props => {
 
     }
 
-    return(
+    return(<>
+        <NavBar/>
         <div style={screen}>
             <ArticleHeader text='Land of the Giants: Part Two' date='04.02.22'/>
             <ArticleImgs folder={FOLDER} imgs={['thumbnail']}/>
@@ -44,9 +46,7 @@ const YosemiteTwoScreen = props => {
             finding. So why climb it? At the end of the day, it will always be the Nose, and 
             you'll always want to. And truthfully, the scale of the route did still 
             excite the adventurer within. 2 or 3 days can always be struggled through in 
-            pretty sub-optimal conditions, but 5 days - not so much. Personally, I'd be more excited 
-            by a 5 day self-supported hike than a walk in the countryside, for no other reason than 
-            how long it would take.`}/>
+            pretty sub-optimal conditions, but 5 days - not so much.`}/>
 
             <ArticleText text={`It's not often the case that I'm motivated to climb something to get a 
             tick in a box. But if that is the case, then you better be damn 
@@ -59,7 +59,7 @@ const YosemiteTwoScreen = props => {
 
             <ArticleImgs folder={FOLDER} imgs={['swanageKit','swanageEd']}/>  
 
-            <ArticleText indent={true} text={`We did set off up an unestablished micro crack 
+            <ArticleText indent={true} text={`We set off up an unestablished micro crack 
             in a dusty groove which turned out to be harder and more scary than any of the 
             aid-climbing that I did in the Yosemite Valley. A couple of RP’s equalised with 
             a sling, and a #0.2 microcam exploding with a fractured lobe - all above a ground fall 
@@ -156,7 +156,7 @@ const YosemiteTwoScreen = props => {
             the Nose which just wasn’t enough time to fully recover and build up energy 
             reserves for a week on El Cap. Others expressed doubts and 
             indecision too, and a final decision about what the team would look like 
-            moving forewards wasn’t made until after breakfast. `}/>
+            moving forwards wasn’t made until after breakfast. `}/>
 
             <ArticleImgs folder={FOLDER} imgs={['decisionMaking','portaledgeStu']}/>
 
@@ -164,8 +164,8 @@ const YosemiteTwoScreen = props => {
             had been told: it gets easier the higher you go – less time wasted in 
             queues, you get the hang of moving faster, the bags get at least 15-20 
             kg lighter every day. That being said, I thought for the first time that 
-            it might become gruelling to the extent that I might rather not be doing 
-            it. I have never reached that point on a climb before, and thank fully 
+            it might become gruelling to the extent that I would rather not be doing 
+            it. I have never reached that point on a climb before, and thankfully 
             it didn’t happen on the Nose. `}/>
 
             <ArticleText text={`A couple of older guys, one of whom was turning 60, 
@@ -257,7 +257,7 @@ const YosemiteTwoScreen = props => {
 
             <ArticleText indent={true} text={`We stood on the top and I didn’t feel a 
             huge sense of achievement. I am more proud of it now, some time later. It 
-            took time to figure out why I didn’t feel on top of the world - stood on top 
+            took a while to figure out why I didn’t feel on top of the world - on top 
             of the rock; next to the wind-twisted pines and a couple of 
             not-for-the-first-time NIAD climbers who set off that morning. `}/>
 
@@ -267,7 +267,7 @@ const YosemiteTwoScreen = props => {
             less stuff, or more stuff; we would have made it. The hardest pitches 
             weren’t that hard, it wasn’t that cold, or that hot. We carried a 
             full, unopened jar of peanut butter to the top; because we had space for 
-            it and didn’t need it. These thoughts circulated as we trudged back down 
+            it but didn’t need it. These thoughts circulated as we trudged back down 
             to the valley floor carrying our ridiculously big bags, and our unopened 
             jar of peanut butter. If the romantic dream of the biggest walls in 
             Yosemite was indeed more than just a dream, climbing the Nose in 
@@ -292,7 +292,7 @@ const YosemiteTwoScreen = props => {
             <ArticleImgs folder={FOLDER} imgs={['teeth']}/>
 
         </div>
-    )
+    </>)
 }
 
 export default YosemiteTwoScreen

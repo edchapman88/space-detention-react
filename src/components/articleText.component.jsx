@@ -1,17 +1,15 @@
 import { useEffect } from "react"
 import WebFont from 'webfontloader'
+import { defaultTextStyle } from "../styles/textStyle"
 
 
 const ArticleText = props => {
     const container = {
-        padding: '3% 10%',
+        padding: '2% 10%',
         ...props.containerStyle
     }
     let textStyle = {
-        fontFamily: 'Sono',
-        margin: 0,
-        lineHeight: '2.5vw',
-        fontSize: '1.6vw',
+        ...defaultTextStyle,
         ...props.textStyle
     }
 

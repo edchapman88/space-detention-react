@@ -1,6 +1,7 @@
 import ArticleText from "../../components/articleText.component"
 import ArticleImgs from "../../components/articleImgs.component"
 import ArticleHeader from "../../components/articleHeader.component"
+import NavBar from "../../components/navBar.component"
 
 const YosemiteOneScreen = props => {
     const FOLDER = '2209Yosemite'
@@ -9,7 +10,8 @@ const YosemiteOneScreen = props => {
 
     }
 
-    return(
+    return(<>
+        <NavBar/>
         <div style={screen}>
             <ArticleHeader text='Land of the Giants: Part One' date='29.09.22'/>
             <ArticleImgs folder={FOLDER} imgs={['landOfGiants']}/>
@@ -211,7 +213,7 @@ const YosemiteOneScreen = props => {
 
 
         </div>
-    )
+    </>)
 }
 
 export default YosemiteOneScreen

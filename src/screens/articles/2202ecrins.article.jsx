@@ -1,6 +1,7 @@
 import ArticleText from "../../components/articleText.component"
 import ArticleImgs from "../../components/articleImgs.component"
 import ArticleHeader from "../../components/articleHeader.component"
+import NavBar from "../../components/navBar.component"
 
 const EcrinsIceScreen = props => {
     const FOLDER = '2202EcrinsIce'
@@ -9,7 +10,8 @@ const EcrinsIceScreen = props => {
     }
 
 
-    return(
+    return(<>
+        <NavBar/>
         <div style={screen}>
             <ArticleHeader text='Where to look' date='04.02.22'/>
             <ArticleImgs folder={FOLDER} imgs={['thumbnail']}/>
@@ -119,7 +121,7 @@ const EcrinsIceScreen = props => {
 
         
         </div>
-    )
+    </>)
 }
 
 export default EcrinsIceScreen

@@ -4,13 +4,14 @@
     color: rgb(180, 179, 179);
     text-decoration: none;
     border-radius: 5px;
+    font-family: 'sono';
 
 }
 
 .button:hover {
-    background-color: rgba(241, 240, 240, 0.2)
+    background-color: rgba(117, 117, 117, 0.101)
 }
 
 .active {
-    background-color: rgba(241, 240, 240, 0.2)
+    background-color: rgba(117, 117, 117, 0.101)
 }

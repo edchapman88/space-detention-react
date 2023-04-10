@@ -1,6 +1,7 @@
 import ArticleText from "../../components/articleText.component"
 import ArticleImgs from "../../components/articleImgs.component"
 import ArticleHeader from "../../components/articleHeader.component"
+import NavBar from "../../components/navBar.component"
 
 const BenNevisLieInScreen = props => {
     const FOLDER = '2203BenNevis'
@@ -9,7 +10,8 @@ const BenNevisLieInScreen = props => {
 
     }
 
-    return(
+    return(<>
+        <NavBar/>
         <div style={screen}>
             <ArticleHeader text='In the pursuit of a lie in' date='18.03.22'/>
             <ArticleImgs folder={FOLDER} imgs={['thumbnail']}/>
@@ -184,7 +186,7 @@ const BenNevisLieInScreen = props => {
             <ArticleImgs folder={FOLDER} imgs={['hands.j','van.j']}/>
 
         </div>
-    )
+    </>)
 }
 
 export default BenNevisLieInScreen

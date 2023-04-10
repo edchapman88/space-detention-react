@@ -4,7 +4,8 @@ import WebFont from 'webfontloader'
 
 const ArticleHeader = props => {
     const container = {
-        padding: '10% 10% 0 10%',
+        padding: '7% 10% 0 10%',
+        paddingTop: '60px',
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'space-between'

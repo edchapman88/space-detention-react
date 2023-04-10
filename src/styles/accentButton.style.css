@@ -1,0 +1,14 @@
+.accentbutton {
+    padding: 10px;
+    margin: 10px;
+    color: rgb(180, 179, 179);
+    background-color: rgba(0, 84, 218, 0.229);
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'sono';
+
+}
+
+.accentbutton:hover {
+    background-color: rgba(117, 117, 117, 0.101)
+}

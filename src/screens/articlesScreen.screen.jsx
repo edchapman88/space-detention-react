@@ -3,41 +3,54 @@ import ArticlePreview from "../components/articlePreview.component";
 import { getImgByPageAndInclude } from "../functions/imageSearching.functions";
 import { useContext } from "react";
 import { LinksContext } from "../contexts/links.context";
-import '../styles/articlePreview.style.css'
+import { useNavigate } from "react-router-dom";
+
 
 const ArticlesScreen = () => {
     const { contentLinks } = useContext(LinksContext)
+    const navigate = useNavigate();
 
     const imageRefs = [
         {ref:'2202ecrins',
         blurb:'A long short weekend, a steep learning curve and squirty cream.',
         date:'04.02.22',
-        title:'Where to look'},
+        title:'Where to look',
+        route:'/WhereToLook'},
         {ref:'2203benNevis',
         blurb:'Tactics, a tent and a tiring tick list.',
         date:'18.03.22',
-        title:'In the pursuit of a lie in'},
+        title:'In the pursuit of a lie in',
+        route:'/InThePursuitOfALieIn'},
         {ref:'2209yosemite1',
-        blurb:'',
+        blurb:'Learning how to aid-climb, and why not to.',
         date:'29.09.22',
-        title:'Land of the Giants: Part One'},
+        title:'Land of the Giants: Part One',
+        route:'/LandOfTheGiantsPartOne'},
         {ref:'2209yosemite2',
-        blurb:'',
+        blurb:"Life's not a fashion show, but style matters. Rom-com or tragedy?",
         date:'08.10.22',
-        title:'Land of the Giants: Part Two'}
+        title:'Land of the Giants: Part Two',
+        route:'/LandOfTheGiantsPartTwo'}
         ];
         
     const articleContainer = {
-        display: 'flex'
+        display: 'flex',
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        justifyContent: 'space-around',
+        paddingLeft: '5vw',
+        paddingRight: '5vw',
+        paddingTop: '60px'
     }
 
     return (<>
         <NavBar/>
         { contentLinks && 
-            <div className='articlesContainer'>
+            <div style={articleContainer} >
                 {imageRefs.map( item => {
                     const {blurb,date,title} = item
                     return <ArticlePreview
+                                onClick={()=>{navigate(item.route)}}
                                 key={item.ref} 
                                 imageLink={getImgByPageAndInclude(
                                                 'articleThumbnails',
