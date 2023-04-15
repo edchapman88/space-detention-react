@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import ScrollToTop from './components/scrollToTop.component';
 import useContentLinks from './hooks/useContentLinks.hook';
 import HomeScreen from './screens/homeScreen.screen';
 import ArticlesScreen from './screens/articlesScreen.screen';
@@ -16,7 +17,9 @@ function App() {
   return (
     <Router>
       <LinksContext.Provider value={{ contentLinks, setContentLinks }}>
+        <ScrollToTop/>
         <Routes>
+          <Route element={<HomeScreen/>} exact path="/"/>
           <Route element={<HomeScreen/>} path="/Home"/>
           <Route element={<ArticlesScreen/>} path="/Articles"/>
 
