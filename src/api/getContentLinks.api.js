@@ -1,29 +1,19 @@
-import { responseHandler } from "./utils.api"
+import {S3} from "aws-sdk"
 
-async function getContentLinks(pageToken) {
+const s3 = new S3({
+    region: 'eu-west-1',
+    apiVersion: 'latest',
+    credentials: {
+        accessKeyId: process.env.REACT_APP_AWS_ACCESS_KEY_ID,
+        secretAccessKey: process.env.REACT_APP_AWS_SECRET_ACCESS_KEY
+    }})
 
-    //pass filtering params in query string
-    let url = process.env.REACT_APP_BACKEND_URL + '/getContentLinks?'
-    url += 'fields=nextPageToken,items(title, webContentLink, parents(id), id, mimeType)'
-
-    if (pageToken) {
-        url += `&pageToken=${pageToken}`
-    }
-
-    return await fetch(url,{
-        method: 'GET'
-    }).then( (res)=>responseHandler(res) )
-    .then((data) => data.json())
-
-}
-
-export default async function getAllContentLinks(pageToken) {
-    let data = await getContentLinks(pageToken)
-
-    let items = data.items
-    if (data.nextPageToken) {
-        items.push( ...await getAllContentLinks(data.nextPageToken))
-    }
-    return items
+export default async function getAllContentLinks() {
+    // return an array of relative paths
+    // (relative to the root of the bucket)
+    let items = await s3.listObjects({
+        Bucket: 'space-detention-resources'
+    }).promise()
+    return items.Contents.map(el => el.Key)
 }
 

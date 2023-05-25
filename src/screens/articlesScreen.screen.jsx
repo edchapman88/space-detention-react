@@ -56,7 +56,7 @@ const ArticlesScreen = () => {
                                                 'articleThumbnails',
                                                 item.ref,
                                                 contentLinks
-                                            )?.link}
+                                            )}
                                 blurb={blurb} date={date} title={title}/>
                 })}
             </div>

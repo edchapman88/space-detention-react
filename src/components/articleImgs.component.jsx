@@ -26,7 +26,7 @@ const ArticleImgs = props => {
     function makeImgElement( folder, imgTitleInclude, contentLinksDirectory ) {
         let img = getImgByPageAndInclude(folder,imgTitleInclude,contentLinksDirectory)
         if (img) {
-            return <img style={singleImg} src={img.link}/>
+            return <img style={singleImg} src={img}/>
         } else {
             console.warn(`No image including '${imgTitleInclude}' found in folder ${folder}`)
         }
@@ -49,7 +49,7 @@ const ArticleImgs = props => {
                     props.imgs.map( imgString => {
                         let img = getImgByPageAndInclude(props.folder,imgString,contentLinks)
                         if (img) {
-                            return (<img key={img.id} style={sideBySideImg} src={img.link}/>)
+                            return (<img key={img} style={sideBySideImg} src={img}/>)
                         } else {
                             console.warn(`No image including '${imgString}' found in folder ${props.folder}`)
                         }

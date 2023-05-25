@@ -15,7 +15,7 @@ const HomeScreen = () => {
     useEffect(()=> {
         if (contentLinks) {
             setHomeImgs(getImgsByPage('homePage',contentLinks))
-            setCoverUrl(getImgByPageAndInclude('homePage','coverImg',contentLinks).link)
+            setCoverUrl(getImgByPageAndInclude('homePage','coverImg',contentLinks))
         }
     },[contentLinks])
 

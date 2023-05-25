@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import getAllContentLinks from "../api/getContentLinks.api";
 import { linksFormatter } from "../functions/contentLinkFormatting.functions";
-// import { items } from "./itemsDev";
 
 const useContentLinks = () => {
 
@@ -10,7 +9,7 @@ const useContentLinks = () => {
     async function getAndSetLinks( stateSetter ) {
 
         const items = await getAllContentLinks()
-        // console.log(items)
+        // console.log(linksFormatter(items))
     
         stateSetter(linksFormatter(items))
     }
