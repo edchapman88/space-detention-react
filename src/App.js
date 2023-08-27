@@ -9,6 +9,7 @@ import EcrinsIceScreen from './screens/articles/2202ecrins.article';
 import BenNevisLieInScreen from './screens/articles/2203benNevis.article';
 import YosemiteOneScreen from './screens/articles/2209yosemite1.article';
 import YosemiteTwoScreen from './screens/articles/2209yosemite2.article';
+import ReflectionScreen from './screens/articles/2308reflection';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
           <Route element={<BenNevisLieInScreen/>} path="/InThePursuitOfALieIn"/>
           <Route element={<YosemiteOneScreen/>} path="/LandOfTheGiantsPartOne"/>
           <Route element={<YosemiteTwoScreen/>} path="/LandOfTheGiantsPartTwo"/>
+          <Route element={<ReflectionScreen/>} path="/Reflection"/>
         </Routes>
       </LinksContext.Provider>
     </Router>

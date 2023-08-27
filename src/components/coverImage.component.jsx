@@ -1,8 +1,11 @@
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
 import WebFont from 'webfontloader';
 import DefaultButton from "./defaultButton.component";
+import { LinksContext } from "../contexts/links.context";
+import { makeImgElement } from "../functions/makeImgElement.functions";
 
 const CoverImage = props => {
+    const { contentLinks } = useContext(LinksContext)
 
     useEffect(()=>{
         WebFont.load({
@@ -13,17 +16,18 @@ const CoverImage = props => {
     },[])
 
     const containerStyle = {
-
+        marginBottom : '-4px',
+        position: 'relative',
     }
 
     const imgStyle = {
-        width : '100%'
+        width : '100%',
     }
 
     const headerStyle = {
         color: 'white',
-        fontSize: '3vw',
-        fontFamily: 'sono'
+        fontFamily: 'sono',
+        position: 'relative'
     }
 
     const textContainerStyle = {
@@ -36,18 +40,24 @@ const CoverImage = props => {
 
     return(
         <div style={containerStyle}>
-            <div style={textContainerStyle}>
+            <div style={{...textContainerStyle, ...props.textContainerStyle}}>
                     { props.text && props.text.map( line => {
-                    return <h1 key={line} style={headerStyle}>{line}</h1>
+                    return <h1 
+                                key={line}
+                                className={props.headerClassName}
+                                style={{...headerStyle,...props.headerStyle}}
+                            >{line}</h1>
                 })}
                 {props.button &&
                 <DefaultButton 
                     onClick={props.button.onClick}
                     text={props.button.text}
                     style={props.button.style}
-                    className={props.button.className}/>}
+                    className={props.button.className}
+                    textClassName={props.button.textClassName}/>}
+                    
             </div>
-            <img style={imgStyle} src={props.imgUrl}/>
+            { contentLinks && makeImgElement(props.folder, props.img, contentLinks, imgStyle) }
         </div>
     )
 }

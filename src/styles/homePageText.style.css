@@ -1,0 +1,18 @@
+.coverText {
+    font-size: 2vw;
+}
+
+@media (max-width: 1025px) {
+    .coverText {
+        font-size: 3vw;
+        line-height: 7vw;
+    }
+}
+
+@media (max-width: 843px) {
+    .coverText {
+        font-size: 5vw;
+        line-height: 8vw;
+    }
+}
+

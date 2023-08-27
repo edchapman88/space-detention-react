@@ -8,7 +8,7 @@ const NavBar = props => {
     const containerStyle = {
         display: 'flex',
         position: 'fixed',
-
+        zIndex: '99'
     }
 
     return (

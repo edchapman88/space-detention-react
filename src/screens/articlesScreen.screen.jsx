@@ -30,7 +30,12 @@ const ArticlesScreen = () => {
         blurb:"Life's not a fashion show, but style matters. Rom-com or tragedy?",
         date:'08.10.22',
         title:'Land of the Giants: Part Two',
-        route:'/LandOfTheGiantsPartTwo'}
+        route:'/LandOfTheGiantsPartTwo'},
+        {ref:'2308reflection',
+        blurb:"What adventure means and how not to look for it.",
+        date:'14.08.23',
+        title:'Reflection',
+        route:'/Reflection'}
         ];
         
     const articleContainer = {
