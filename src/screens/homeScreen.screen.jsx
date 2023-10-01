@@ -27,7 +27,7 @@ const HomeScreen = () => {
             `Welcome to this tiny pocket of the Internet,`,
             `I hope it brings you something fresh and spacious.`,
             `There are some photos and some stories,`,
-            `About adventures into the mountains!`,
+            `About adventures into the mountains.`,
             ]}
             button={{
                 onClick:()=>{navigate('/Articles')},
