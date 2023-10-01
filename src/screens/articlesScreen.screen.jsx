@@ -27,7 +27,7 @@ const ArticlesScreen = () => {
         title:'Land of the Giants: Part One',
         route:'/LandOfTheGiantsPartOne'},
         {ref:'2209yosemite2',
-        blurb:"Life's not a fashion show, but style matters. Rom-com or tragedy?",
+        blurb:"Life's not a fashion show, but style matters.",
         date:'08.10.22',
         title:'Land of the Giants: Part Two',
         route:'/LandOfTheGiantsPartTwo'}
@@ -38,6 +38,7 @@ const ArticlesScreen = () => {
         flexDirection: 'row',
         flexWrap: 'wrap',
         justifyContent: 'space-around',
+        alignContent: 'start',
         paddingLeft: '5vw',
         paddingRight: '5vw',
         paddingTop: '60px'

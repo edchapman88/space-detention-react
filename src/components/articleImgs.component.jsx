@@ -1,6 +1,7 @@
 import { useContext, useEffect } from "react"
 import { getImgByPageAndInclude } from "../functions/imageSearching.functions"
 import { LinksContext } from "../contexts/links.context"
+import { makeImgElement } from "../functions/makeImgElement.functions"
 
 const ArticleImgs = props => {
     const { contentLinks } = useContext(LinksContext)
@@ -23,21 +24,12 @@ const ArticleImgs = props => {
         borderRadius: '4px'
     }
 
-    function makeImgElement( folder, imgTitleInclude, contentLinksDirectory ) {
-        let img = getImgByPageAndInclude(folder,imgTitleInclude,contentLinksDirectory)
-        if (img) {
-            return <img style={singleImg} src={img}/>
-        } else {
-            console.warn(`No image including '${imgTitleInclude}' found in folder ${folder}`)
-        }
-    }
-
     switch (props.imgs.length) {
         case 1:
            return (<>
            { contentLinks && 
                 <div style={imgContainer}>
-                    { contentLinks && makeImgElement(props.folder, props.imgs[0],contentLinks) }
+                    { contentLinks && makeImgElement(props.folder, props.imgs[0],contentLinks, singleImg) }
                 </div>
             }
             </>) 
