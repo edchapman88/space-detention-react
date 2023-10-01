@@ -27,15 +27,10 @@ const ArticlesScreen = () => {
         title:'Land of the Giants: Part One',
         route:'/LandOfTheGiantsPartOne'},
         {ref:'2209yosemite2',
-        blurb:"Life's not a fashion show, but style matters. Rom-com or tragedy?",
+        blurb:"Life's not a fashion show, but style matters.",
         date:'08.10.22',
         title:'Land of the Giants: Part Two',
-        route:'/LandOfTheGiantsPartTwo'},
-        {ref:'2308reflection',
-        blurb:"What adventure means and how not to look for it.",
-        date:'14.08.23',
-        title:'Reflection',
-        route:'/Reflection'}
+        route:'/LandOfTheGiantsPartTwo'}
         ];
         
     const articleContainer = {
@@ -43,6 +38,7 @@ const ArticlesScreen = () => {
         flexDirection: 'row',
         flexWrap: 'wrap',
         justifyContent: 'space-around',
+        alignContent: 'start',
         paddingLeft: '5vw',
         paddingRight: '5vw',
         paddingTop: '60px'
