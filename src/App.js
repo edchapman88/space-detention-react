@@ -28,7 +28,7 @@ function App() {
           <Route element={<BenNevisLieInScreen/>} path="/InThePursuitOfALieIn"/>
           <Route element={<YosemiteOneScreen/>} path="/LandOfTheGiantsPartOne"/>
           <Route element={<YosemiteTwoScreen/>} path="/LandOfTheGiantsPartTwo"/>
-          <Route element={<ReflectionScreen/>} path="/Reflection"/>
+          <Route element={<ReflectionScreen/>} path="/EscapingExpectation"/>
         </Routes>
       </LinksContext.Provider>
     </Router>
