@@ -226,9 +226,8 @@ const ReflectionScreen = (props) => {
       />
       <ArticleImgs folder={FOLDER} imgs={["snowboard", "teeth"]} />
       <ArticleText
-        text={`So what are adventures and how do you plan them? Maybe I'll find out on the next one.
-        For now, whilst expectation tries to crush them, I find them scribbled in the margins of photos and
-         budding from sunsets in the city.`}
+        text={`So what makes an adventure and how do you plan them? Maybe I'll find out next time.
+        For now, I find them scribbled in the margins of photos - the long arm of expectation just out of reach.`}
       />
 
       <ArticleImgs folder={FOLDER} imgs={["metenzing"]} />
