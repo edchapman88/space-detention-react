@@ -27,7 +27,7 @@ const ReflectionScreen = (props) => {
         text={`Avalanches. They are deadly and they are frighteningly intangible. Your 
         interpretation of a forecast sometimes tells you more about yourself than it does the snow. 
         There is a temptation to leap on the slightest improvement: the north-westerly slopes are now 
-        3-reated rather than 4; “avalanches are likely to release spontaneously” is an improvement on 
+        3-rated rather than 4; “avalanches are likely to release spontaneously” is an improvement on 
         “avalanches are likely to be triggered by climbers”. Reading the forecasts this way is a 
         highroad to killing yourself. But it takes a lot of strength to avoid 
         slipping into this relativistic approach, several groundhog-days into a week of terrible forecasts. You become  
@@ -38,9 +38,9 @@ const ReflectionScreen = (props) => {
       />
 
       <ArticleText
-        text={`We went drytooling. Mozzarella Focaccias at the dusty foot of sickeningly
-      overhung crag down the road from Chamonix. The always-dry ledges and squats at the base of the 
-      routes felt a bit lived in, and a comfort we hadn't flown to France for. I found a certain 
+        text={`We went drytooling. Mozzarella focaccias at the dusty foot of sickeningly
+      overhung crag down the road from Chamonix. The always dry ledges and squats at the base of the 
+      routes felt a bit lived in - a comfort we hadn't flown to France for. I found a certain 
       satisfaction to scoring the 
       drilled axe slots, like playing a video game or pocketing several balls in a row in snooker. 
       Learning the tricks for scratching up rock in winter gear would be useful in the future.`}
@@ -59,7 +59,7 @@ const ReflectionScreen = (props) => {
         text={`So where does the plan end and the expectation begin? Are you 
       motivated by the plan or by your expectation? I was reflecting in a 
       rain-lashed cafe in Chamonix, watching the cabin-less Midi cables lean in the wind. I was sure that I'm 
-      motivated by adventure, but after a real spagetti-western of a plan I'd ended up in a cafe
+      motivated by adventure, but after a real spaghetti-western of a plan I'd ended up in a cafe
       questioning what adventure really was.`}
       />
 
@@ -92,7 +92,7 @@ const ReflectionScreen = (props) => {
         text={`A Tenzing can plays a different role in the world of fear, euphoria and the 
         dread of never-ending descent tracks. Sifting through these memories, there are hang-over like endurances: 
       with enough discomfort to wish it were over, but not quite enough to have wished it were avoided. 
-      There's truely unclouded euphoria when we would stop, rifle though our packs and take the 
+      There's truly unclouded euphoria when we would stop, rifle though our packs and take the 
       first few sips of Tenzing at the top. At the very least, you begin the tiresome descent with 
       a burst of hope.`}
       />
@@ -101,7 +101,7 @@ const ReflectionScreen = (props) => {
 
       <ArticleText
         text={`There was a thick fog. It was easy enough to head for the right crag at 
-      the back of the corrie, but we couldn't see the features of the rock to begin 
+      the back of the coire, but we couldn't see the features of the rock to begin 
       feeling optimistic or fearful. Large drifts of snow swept down the gully separating us from 
       the crag. Beneath the lee-side faces of these drifts a view of the buttress was obscured and 
       we kicked up and across towards the crest. As we moved, the famous blocky corner and offwidth 
@@ -148,7 +148,7 @@ const ReflectionScreen = (props) => {
         text={[
           `"The flared secondary points on the front of my crampons catch in and out 
       of the gaps in the chicken wire, pinned to the cliff face and loosely carrying wet 
-      shields of crumbling ice. Abseiling and tiptoing down the slumping wall of slush. 
+      shields of crumbling ice. Abseiling and tiptoeing down the slumping wall of slush. 
       Behind the hikers fence, over the edge and into a humid ravine. Wet twigs stick up 
       through the heavy snow which is melting across the track."`,
         ]}
@@ -176,7 +176,7 @@ const ReflectionScreen = (props) => {
 
       <ArticleText
         text={`My brother was filling up his water bottle from the icy hose by the CIC 
-      Hut. Gazing up at the familiar shapes of the buttresses in the Corrie Na Ciste, we came up 
+      Hut. Gazing up at the familiar shapes of the buttresses in Coire na Ciste, we came up 
       with a plan. It was noon, we'd driven across from the Cairngorms the night before. There was 
       promise of thick ice on Ben Nevis. I had a theory that the enthusiastic reports had more to 
       do with the underwhelming season to date, combined with very limited snow cover. The ice is 
@@ -193,7 +193,7 @@ const ReflectionScreen = (props) => {
       Afraid that I might detatch the sculpture from the sweating walls of the gully, bringing 
       everything down. My brother set off up the alternative. The loose buttress to our right, 
       held together with moss and snow. We topped out onto a crisp mound overlooking the rest of 
-      the Corrie. Low in the sky, the sun came through the clouds. It was disappointing how little 
+      the coire. Low in the sky, the sun came through the clouds. It was disappointing how little 
       progress we'd made. I wonder: had the line been hard on paper we might not have been 
       disheartened. And yet we didn't need a number on paper to know that we hadn't just climbed a Grade 
       II snow gully. Something didn't add up.`}
@@ -227,8 +227,8 @@ const ReflectionScreen = (props) => {
       <ArticleImgs folder={FOLDER} imgs={["snowboard", "teeth"]} />
       <ArticleText
         text={`So what are adventures and how do you plan them? Maybe I'll find out on the next one.
-        For now expectation tries to crush them, and I find them scribbled in the margins of the photos that prompt me to 
-      remember them.`}
+        For now, whilst expectation tries to crush them, I find them scribbled in the margins of photos and
+         budding from sunsets in the city.`}
       />
 
       <ArticleImgs folder={FOLDER} imgs={["metenzing"]} />
