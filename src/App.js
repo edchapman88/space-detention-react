@@ -10,6 +10,7 @@ import BenNevisLieInScreen from './screens/articles/2203benNevis.article';
 import YosemiteOneScreen from './screens/articles/2209yosemite1.article';
 import YosemiteTwoScreen from './screens/articles/2209yosemite2.article';
 import ReflectionScreen from './screens/articles/2308reflection';
+import NorwayScreen from './screens/articles/2403norway';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
           <Route element={<YosemiteOneScreen/>} path="/LandOfTheGiantsPartOne"/>
           <Route element={<YosemiteTwoScreen/>} path="/LandOfTheGiantsPartTwo"/>
           <Route element={<ReflectionScreen/>} path="/EscapingExpectation"/>
+          <Route element={<NorwayScreen/>} path="/Norway"/>
         </Routes>
       </LinksContext.Provider>
     </Router>
