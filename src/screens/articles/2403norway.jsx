@@ -9,22 +9,20 @@ const NorwayScreen = (props) => {
 
   return (
     <div style={screen}>
-      <ArticleHeader text="norway" date="02.03.24" />
+      <ArticleHeader text="Norway" date="02.03.24" />
       <ArticleImgs folder={FOLDER} imgs={["watersunset"]} />
 
       <ArticleText
         indent={true}
-        text={`What might you find claustrophobic about being sealed in a 
-      pressurised cabin, 38,000ft of air beneath you, 400 miles from where you left the ground and 
-      400 miles from a spot to safely land? Is the claustrophobia the cabin? Is it the seatbelt, or 
-      the impossibility of landing sooner? Is it the distinct lack of alternatives to the inevitable
-       option that's unbearably never-ending`}
+        text={`What's claustrophobic about being in a plane? Sealed in a 
+      pressurised cabin at 38,000ft, 400 miles from takeoff and landing. Is it the small cabin? 
+      The seatbelt? The impossibility of getting off?`}
       />
       <ArticleText
-        text={`What it is exactly that makes it claustrophobic? I think it's the dreadful
-       realisation and acceptance that there is no alternative. Still the best option is to continue
-        forwards, to persevere. Maybe this frightening isolation from alternatives isn't actually 
-        claustrophobia, but it's how I’ve always felt it.`}
+        text={`The plan was really hot. My legs were wet inside my trousers. I felt dreadful with the
+       realisation and acceptance that there was no alternative to waiting. Maybe this frightening 
+       isolation from alternatives isn't actually 
+        claustrophobia, but it's how I felt it.`}
       />
 
       <ArticleText
