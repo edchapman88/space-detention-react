@@ -46,6 +46,13 @@ const ArticlesScreen = () => {
       title: "Escaping expectation",
       route: "/EscapingExpectation",
     },
+    {
+      ref: "2405scrambled",
+      blurb: "What adventure means and how not to look for it.",
+      date: "14.08.23",
+      title: "Scrambled",
+      route: "/Scrambled",
+    },
   ];
 
   const articleContainer = {

@@ -17,7 +17,7 @@ const ScrambledScreen = (props) => {
         text={`Classic rock is Ken Wilson's compilation of eighty timeless 
         rock climbs on the proudest mountain cliffs across Britain. Improbably lower grade routes 
         teasing their way up cracks and ledges to the summits of the most remote peaks in Snowdonia,
-         the Lakes, the Highlands and the Isle of Skye. Classic rock sits on my coffee table, 
+         the Lakes, the Highlands and on the Isle of Skye. Classic rock sits on my coffee table, 
          gnawing at my patience with the City with it's double-spreads of crisp granite and 
          rhyolite. The golden grain of colour-film photos from the 70s evokes such a painful 
          nostalgia! For a moment I'm coiling ropes in the quietening evening sun with my brother, 
@@ -28,8 +28,8 @@ const ScrambledScreen = (props) => {
       <ArticleText
         text={`Page 264 is breath-taking. There are four specks of clashing primary 
         colour lost to a face so engulfing that even the sky has not escaped. The climbers are 
-        charting a line up a slab of two football fields. Above, cracks and roofs stack up to 
-        the top of the page. The 900ft line in question takes in three routes: Cioch Direct, 
+        charting a line up a slab of two football fields. Above, cracks and roofs stack up and 
+        off the top of the page. The 900ft line in question takes in three routes: Cioch Direct, 
         Arrow Route and Integrity. So where is this mighty cliff? In the remote South Westerly 
         corner of the Isle of Skye, and in the shadow of the Black Cuillin Ridge.`}
       />
@@ -63,18 +63,43 @@ const ScrambledScreen = (props) => {
       />
 
       <ArticleText
-        text={`The bus it seems wasn't running. A taxi driver came to the rescue - 
-        for the first time when he picked us up, for the second time when he got us a last 
-        minute slot on another fishing boat. Our fishing boat it seems, wasn't running. The 
-        taxi driver upon hearing our itinerary told us about his cousin Danny, who had ridden 
+        text={`The bus wasn't running. A taxi driver came to the rescue, he got us to Elgol and 
+          sorted us out with a discounted crossing on his friends boat. The boat we had booked had 
+          broken down. Upon hearing our itinerary the 
+        taxi driver told us about his cousin Danny, who had ridden 
         the ridge on his bike. On the boat the seal gazing day trippers had as little of an 
         idea about what we were in for as we did.`}
       />
 
       <ArticleImgs folder={FOLDER} imgs={["boatheadshot", "seal"]} />
 
+      <ArticleText
+        text={`We scrambled ourselves into difficulty with an overly ambitious 
+        route-finding decision. We hadn't even reached Gars-bheinn - the first summit and the 
+        start of the ridge. We roped up: Mads was frustrated and that alarmed me. Unplanned use 
+        of the rope should be a decision that always feels right, it brings you together. Tying 
+        in is a question of safety, and when those questions are on the table, nothing else 
+        matters. If you make a good decision it feels great. The other things come back onto 
+        the table later and you can feel about them then. I was pissed off with myself for 
+        making the route finding error when we untied and continued on. I'm pleased about 
+        every time I got nervous over those three days on Skye.`}
+      />
+
+      <ArticleImgs folder={FOLDER} imgs={["3", "firstlookout"]} />
+
+      <ArticleText
+        text={`At the top there was Soay, Egg and Rum. And we were stunned and smiling and we were 
+        worried about chewing what we had bitten off. Over our shoulders the dragons back 
+        stretched out and didn't look that far, but our legs felt 895m above the beach and 
+        the boat meandering back to Elgol.`}
+      />
+
+      <ArticleText text={``} />
       <ArticleText text={``} />
 
+      <ArticleImgs folder={FOLDER} imgs={[""]} />
+      <ArticleImgs folder={FOLDER} imgs={[""]} />
+      <ArticleImgs folder={FOLDER} imgs={[""]} />
       <ArticleImgs folder={FOLDER} imgs={[""]} />
     </div>
   );
