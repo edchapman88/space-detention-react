@@ -42,6 +42,8 @@ const NorwayScreen = (props) => {
        weight spread over two big skis would only compress the very softest of 
        snow into a pair of cleanly cut flat tracks. What I would never have guessed is that hard snow doesn't stop play, it just makes it really scary.`}/>
 
+      <ArticleImgs folder={FOLDER} imgs={["olfun"]} />
+
        <ArticleText
         text={`Skins are synthetic or partially synthetic strips of 
        fabric that are fixed to the bottom of each ski to allow the ski to slide forwards but not 
@@ -54,15 +56,28 @@ const NorwayScreen = (props) => {
        potent perfume, doused on the skins leaving the factory.`}
       />
 
-      <ArticleImgs folder={FOLDER} imgs={["olfun"]} />
-
-      <ArticleText text={`On Sunday, March 3rd, we parked right in the centre of a very icy car park on the first day of trip. We were still living out of our suitcases after an overnight stop in Tromso. It felt like all the locals were watching us, all stood near their cars at the edge of the car park, near the snow.`}/>
+      <ArticleText text={`On Sunday, March 3rd, we parked right in the centre of a very icy car park on the first day of trip. We were still living out of our suitcases after an overnight stop in Tromso. It felt like all the locals were watching us, all stood near their cars at the edge of the car park, off the ice and near the snow.`}/>
 
       <ArticleImgs folder={FOLDER} imgs={["carpark"]} />
 
       <ArticleText text={`Having just spent some weeks in Scotland walking into climbing routes in trainers with axes and boots in my backpack, I remember a sense of relief and overflowing excitement as we started to see skiable slopes all around Tromso and beyond. With plenty of snow, a big warm cabin, a car, companions to ski with - time surely to just relax and enjoy the week! But it's never quite that simple. There was some pretty rough flu lined up for us along with an unaviodable dose of snowpack anxiety.`}/>
 
+      <ArticleText text={`Our first day was neither a gentle introduction nor a disappointment. The scenary was breathtaking. There were miles and miles of untouched snow, textured by the wind in all sorts of crazy patterns. Before the wide-open slopes of the mid-mountain we had already skinned up some tight tree-littered tracks that quite frankly I wasn't sure I could ski back down. The ridge to the summit beckoned and the snow got pretty icy as we headed up into the clouds.`}/>
+      
+      <ArticleImgs folder={FOLDER} imgs={["dunes", "ridgeview"]} />
+
+      <ArticleText indent={true} text={`I couldn't believe how easy the photography was in Norway! I was already being told off for holding us up too much, stopping every twenty meters and taking a photo to the North, East, South and West. It already felt like an immensly special day to be near the top of a mountain in the Arctic Circle, on skis, with my Dad and Brother. And given the cloud inversion I tried to push the boat out with a tripod selfie - very nearly crashing on my 10 second dash back into frame.`}/>
+
+      <ArticleImgs folder={FOLDER} imgs={["firstsummit","me"]} />
+
+      <ArticleText text={`Day two was a steep and sweaty climb. Unrelenting sun bouncing into the South-facing scoop and the nerve-wracking snow conditions coming hand in hand as everything got a bit melty. I was relieved when we decided to turn around. It's exhausting to decided together time and time again that: though it doesn't bode well, there isn't yet a good reason to stop pushing on.`}/>
+
       <ArticleImgs folder={FOLDER} imgs={["ollydistance"]} />
+
+      <ArticleText indent={true} text={`We made it to the top of the last reasonable snow slopes before the steepness and warmth combined to make it an exercise in trying to skin up a sand dune. We were stood beneath the big buttress on the left of the following photo, a few hundred meters short of the summit of Store Kjsotinden, 1488m. The snow runnels between us and the summit look quite appealing from a safe distance, but it was hot sugar and I got to the bottom with slush crammed in the vents of my helmet after a number of crashes.`}/>
+      
+      <ArticleImgs folder={FOLDER} imgs={["day2summit"]}/>
+
       <ArticleImgs folder={FOLDER} imgs={["axe"]} />
       <ArticleImgs folder={FOLDER} imgs={["belay"]} />
       <ArticleImgs folder={FOLDER} imgs={["bluesky"]} />
@@ -70,17 +85,13 @@ const NorwayScreen = (props) => {
       <ArticleImgs folder={FOLDER} imgs={["boots"]} />
       <ArticleImgs folder={FOLDER} imgs={["cloudinversion"]} />
       <ArticleImgs folder={FOLDER} imgs={["dadbackdrop", "dadbehind"]} />
-      <ArticleImgs folder={FOLDER} imgs={["dunes"]} />
       <ArticleImgs folder={FOLDER} imgs={["edcol"]} />
       <ArticleImgs folder={FOLDER} imgs={["ferry"]} />
-      <ArticleImgs folder={FOLDER} imgs={["firstsummit"]} />
       <ArticleImgs folder={FOLDER} imgs={["goodsnow"]} />
       <ArticleImgs folder={FOLDER} imgs={["lastsummit"]} />
-      <ArticleImgs folder={FOLDER} imgs={["me"]} />
       <ArticleImgs folder={FOLDER} imgs={["northernlights", "outback"]} />
       <ArticleImgs folder={FOLDER} imgs={["olcol"]} />
       <ArticleImgs folder={FOLDER} imgs={["ridge"]} />
-      <ArticleImgs folder={FOLDER} imgs={["ridgeview"]} />
       <ArticleImgs folder={FOLDER} imgs={["transition"]} />
       <ArticleImgs folder={FOLDER} imgs={["trees"]} />
       <ArticleImgs folder={FOLDER} imgs={["trol"]} />
